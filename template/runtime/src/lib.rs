@@ -219,6 +219,8 @@ impl pallet_aura::Config for Runtime {
 	type DisabledValidators = ();
 }
 
+
+//todo
 impl pallet_grandpa::Config for Runtime {
 	type RuntimeEvent = RuntimeEvent;
 
